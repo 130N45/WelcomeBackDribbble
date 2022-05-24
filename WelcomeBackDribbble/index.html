@@ -1,0 +1,70 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link type="text/css" rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oxygen:wght@300&family=Patrick+Hand&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+      <title>DribbbleBack</title>
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <div class="container">
+         <img class="balllogo" src="dribbble-ball-mark.svg">
+         <img class="dribbbletext" src="dribbble-logo.svg">
+         <div class="ad">
+            <p>A community of designers sharing their work, process, and current projects.</p>
+            <div class="separator2">
+               <span></span>
+            </div>
+            <div class="singup">
+               <p>Sign up for Dribbble to...</p>
+               <ul class="signup">
+                  <li>Get inspired and build your network</li>
+                  <li>If invited, share your work and grow</li>
+                  <li>Message designers about work opportunities (3 free messages)</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="container-r">
+        <div class="halfground">
+        </div>
+         <img class="kleinerball" src="dribbble-ball-icon.png">
+         <span class="welcometext">Welcome Back!</span>
+         <p class="signintext">Sign in to continue...</p>
+         <div class="input_wrapper">
+            <i class="fa-solid fa-circle-user"></i>
+            <input type="text" name="UsernameEmail" placeholder="Username or Email">
+         </div>
+         <div class="input_wrapper">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" name="password" placeholder="Password">
+         </div>
+         <input class="signinbutton" type="button" name="signin" value="SIGN IN">
+         <div class="noaccyet">
+            <p>You don't have an account yet? <a href="#">Sign up here</a> to make a new one. It wont take more than a minute!</p>
+         </div>
+         <div class="separator">
+          <span>Sign in using your social media accounts</span>
+      </div>
+
+      <div class="input_wrapper_twitter">
+        <i class="fa-brands fa-twitter"></i>
+        <input type="button" onclick="window.location.href = 'https://twitter.com/?lang=de'" name="signintwitter" value="Sign in using Twitter">
+     </div>
+
+     <div class="input_wrapper_fb">
+      <i class="fa-brands fa-facebook-f"></i>
+      <input type="button" onclick="window.location.href = 'https://de-de.facebook.com'" name="signinfacebook" value="Sign in using Facebook">
+   </div>
+
+   <div class="input_wrapper_google">
+    <i class="fa-brands fa-google"></i>
+    <input onclick="window.location.href = 'https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Fone.google.com%2Fstorage%3Fgclid%3DEAIaIQobChMIrcyJmuLZ9wIV1fZRCh1Y8whjEAAYASAAEgL4EvD_BwE&followup=https%3A%2F%2Fone.google.com%2Fstorage%3Fgclid%3DEAIaIQobChMIrcyJmuLZ9wIV1fZRCh1Y8whjEAAYASAAEgL4EvD_BwE&flowName=GlifWebSignIn&flowEntry=ServiceLogin'" type="button" name="signingoogle" value="Sign in using Google">
+  </div>
+      </div>
+   </body>
+</html>
